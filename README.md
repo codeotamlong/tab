@@ -1,9 +1,28 @@
-# Tilde
+# mnml-startpage
+This is an MINIMAL startpage without any relation with the fashion brand MNML. I just remove all vowels from the word "minimal". Based on cadejscroggins's project, which is named "tilde", I modified it to meet my requirements and habit, including:
+* Bookmarks
+* Groups
+* Shortcut-keys
+* Re-draw brand logo with CSS background element (yes, i know it's crazy but funny!)
+and (may be?) something which I forgot
+
+# To-do lists:
+Not sure, but may be:
+* Search Engines and Suggestions?
+* Multi-level of Bookmarks?
+* New Commands?
+I will update when I need!
+
+# This a personal receipe!
+# From here: cadejscroggins 's original content of README.MD
+#  
+
+## Tilde
 
 Inspired by [/r/startpages](https://www.reddit.com/r/startpages)—the idea is to
 have a homepage for your browser that is functional and sexy.
 
-## Usage
+### Usage
 
 To go to a site, enter the corresponding key. To view the available sites and
 their keys, press `?`. If your input doesn't match any of the commands, a
@@ -16,7 +35,7 @@ generic Google search will be triggered. For example:
 
 On mobile, you can click the clock to focus the search input.
 
-### Searching
+#### Searching
 
 You can search any of the sites by typing a colon after the site's key, followed
 by your search query. For example:
@@ -26,7 +45,7 @@ by your search query. For example:
 - Entering `s:radiohead` would search
   [SoundCloud for radiohead](https://soundcloud.com/search?q=radiohead).
 
-### Specific Locations
+#### Specific Locations
 
 You can go to a specific location on a site by typing a forward slash after the
 site's key, followed by the location on the site you'd like to be redirected to.
@@ -37,7 +56,7 @@ For example:
 - Entering `h/popular` would redirect you to
   [hypem.com/popular](http://hypem.com/popular).
 
-### URL Redirects
+#### URL Redirects
 
 If you enter in a full domain or URL, you will be redirected to said domain or
 URL. For example:
@@ -47,7 +66,7 @@ URL. For example:
 - Entering `https://smile.amazon.com` would redirect you to
   [smile.amazon.com](https://smile.amazon.com/).
 
-### Query Paramater
+#### Query Paramater
 
 Additionally, you can pass any query via the `q` query param. For example:
 
@@ -56,11 +75,11 @@ Additionally, you can pass any query via the `q` query param. For example:
 
 This allows you to invoke Tilde with your native browser search bar.
 
-## Configuration
+### Configuration
 
 The above is just the beginning. Open up the [index.html](index.html) file and
 read through the `CONFIG`!
 
-## License
+### License
 
 Feel free to [use this and modify it however you like](https://github.com/cadejscroggins/tilde/blob/master/LICENSE).
