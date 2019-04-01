@@ -13,16 +13,34 @@ Not sure, but may be:
 * New Commands?
 I will update when I need!
 
-# This a personal receipe!
-# From here: cadejscroggins 's original content of README.MD
-#  
+# Installation (Firefox)
+- Download (or "git clone")
+- Homepage: Firefox support set a local html file as homepage
+- New tab page:
+    - Option 1: https://addons.mozilla.org/vi/firefox/addon/new-tab-override/
+    - Option 2: Using user-chrome on firefox. Credit: https://luke-baker.github.io/
 
-## Tilde
 
-Inspired by [/r/startpages](https://www.reddit.com/r/startpages)—the idea is to
-have a homepage for your browser that is functional and sexy.
+# Usage: If I have'nt mentioned before as my personal mod, it's same as the original of cadejscroggins (Credit: https://github.com/cadejscroggins/tilde). In short:
+> - Enter `?` for full list of keyword
+> - Enter `keyword` for website, e.g enter `git` for "https://gitlab.com/"
+> - Enter `keyword:searchterm` for searching, e.g: enter `git:hello world` for https://gitlab.com/search?search=hello+world
+> - Enter `keyword/subpage` for sub webpage, e.g: enter `git/ducminh3112` for https://gitlab.com/ducminh3112
+> - Enter `search-term` for Googling, e.g: enter `cats` for [Google for cats](https://encrypted.google.com/search?q=cats).
+> - Enter `url` for webpage, e.g: enter `google.com` for https://www.google.com/
 
-### Usage
+# luke-baker 's user-chrome guide (Credit: https://luke-baker.github.io/):
+**Initial setup**
+>1. Enter about:support into Firefox's location bar.
+>2. Click the Open Folder button. This launches a file manager window with your Firefox profile folder.
+>3. Open Firefox_chrome.zip. If you extract it into your Firefox profile folder, it will create the chrome folder, and inside it, userContent.css, userChrome.css, and userChrome.xml. If you already have your own CSS files set up, only extract userChrome.xml, then copy the code from the ZIP's userChrome.css into your own.
+>4. A restart is required for the change to take effect, though the files won't affect anything until you add some styles or scripts.
+
+**Adding user scripts**
+>1. Option 1: Simply save the *.uc.js files into the chrome folder.
+>2. Option 2: You could paste every script in a single file named userChrome.js in the chrome folder, but that's not very manageable. 
+
+# cadejscroggins 's usage guide (Credit: https://github.com/cadejscroggins/tilde):
 
 To go to a site, enter the corresponding key. To view the available sites and
 their keys, press `?`. If your input doesn't match any of the commands, a
@@ -79,7 +97,3 @@ This allows you to invoke Tilde with your native browser search bar.
 
 The above is just the beginning. Open up the [index.html](index.html) file and
 read through the `CONFIG`!
-
-### License
-
-Feel free to [use this and modify it however you like](https://github.com/cadejscroggins/tilde/blob/master/LICENSE).
