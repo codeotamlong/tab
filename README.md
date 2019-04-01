@@ -19,6 +19,7 @@ I will update when I need!
 - New tab page:
     - Option 1: https://addons.mozilla.org/vi/firefox/addon/new-tab-override/
     - Option 2: Using user-chrome on firefox. Credit: https://luke-baker.github.io/
+- (Optional) Online: https://ducminh3112.gitlab.io/mnml-startpage/
 
 
 # Usage: If I have'nt mentioned before as my personal mod, it's same as the original of cadejscroggins (Credit: https://github.com/cadejscroggins/tilde). In short:
