@@ -11,8 +11,15 @@ Not sure, but may be:
 * Search Engines and Suggestions?
 * Multi-level of Bookmarks?
 * New Commands?
+* Fix bug?
 I will update when I need!
 
+# Known issue
+1. Click on the clock:
+    - How it should: Show the text-input
+    - How it currently work:
+        - 1st time: Return a white page, still can write down shortcut keyword
+        - From 2nd time: work properly
 # Installation (Firefox)
 - Download (or "git clone")
 - Homepage: Firefox support set a local html file as homepage
@@ -21,8 +28,8 @@ I will update when I need!
     - Option 2: Using user-chrome on firefox. Credit: https://luke-baker.github.io/
 - (Optional) Online: https://ducminh3112.gitlab.io/mnml-startpage/
 
-
-# Usage: If I have'nt mentioned before as my personal mod, it's same as the original of cadejscroggins (Credit: https://github.com/cadejscroggins/tilde). In short:
+# Usage
+If I have'nt mentioned before as my personal mod, it's same as the original of cadejscroggins. In short:
 > - Enter `?` for full list of keyword
 > - Enter `keyword` for website, e.g enter `git` for "https://gitlab.com/"
 > - Enter `keyword:searchterm` for searching, e.g: enter `git:hello world` for https://gitlab.com/search?search=hello+world
@@ -30,7 +37,8 @@ I will update when I need!
 > - Enter `search-term` for Googling, e.g: enter `cats` for [Google for cats](https://encrypted.google.com/search?q=cats).
 > - Enter `url` for webpage, e.g: enter `google.com` for https://www.google.com/
 
-# luke-baker 's user-chrome guide (Credit: https://luke-baker.github.io/):
+# luke-baker 's user-chrome guide 
+**Credit: https://luke-baker.github.io/**
 **Initial setup**
 >1. Enter about:support into Firefox's location bar.
 >2. Click the Open Folder button. This launches a file manager window with your Firefox profile folder.
@@ -41,8 +49,8 @@ I will update when I need!
 >1. Option 1: Simply save the *.uc.js files into the chrome folder.
 >2. Option 2: You could paste every script in a single file named userChrome.js in the chrome folder, but that's not very manageable. 
 
-# cadejscroggins 's usage guide (Credit: https://github.com/cadejscroggins/tilde):
-
+# cadejscroggins 's usage guide
+**Credit: https://github.com/cadejscroggins/tilde**
 To go to a site, enter the corresponding key. To view the available sites and
 their keys, press `?`. If your input doesn't match any of the commands, a
 generic Google search will be triggered. For example:
