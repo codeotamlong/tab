@@ -1,0 +1,22 @@
+{
+	"manifest_version": 3,
+	"name": "mnml-tab",
+    "content_security_policy":  
+	{
+		"extension_pages": "script-src 'self'; object-src 'self';child-src 'none';"
+	},
+	"description": "Based on Cade Scroggins's Tilde, but it's a extension",
+	"version": "4.2.0",
+	"permissions": [
+		"bookmarks",
+		"favicon",
+		"topSites",
+		"management",
+		"tabs",
+		"fontSettings",
+		"sessions"
+	],
+	"chrome_url_overrides": {
+		"newtab": "index.html"
+	}
+}
